@@ -116,14 +116,97 @@ __pycache__/
 
 !help
 
-Displays categories + watermark by lordxStar
+Displays categories + wat
+``` ⚔️ All In One Bot — Made By lordxStar
+
+A multi‑feature Discord bot packed with **Moderation, Utility, Fun, Music, Database + Config System**.
+
+---
+
+## 🧠 Setup
+```bash
+python main.py
 
 
 ---
 
-💝 Credits
+-------|-----------| | !play <song/url> | Play a track | | !pause | Pause playback | | !resume | Resume playback | | !skip | Skip current song | | !stop | Stop player | | !nowplaying | Show current track | | !queue | Show queue | | !autoplay | Toggle autoplay | | !volume <1‑5000> | Change volume | | !lofi | Enable lofi filter |
 
-All In One Bot – Made By lordxStar
-Watermark Included In All Files
 
-If you want extra features (Music bot, Level system, Ticket system, AI chat, Auto moderation), ask anytime 💫
+---
+
+🛡️ Moderation Commands
+
+Command	Function
+
+!kick @user	Kick user
+!ban @user	Ban user
+!unban name#0000	Unban member
+!clear <amount>	Clear messages
+!slowmode <sec>	Enable slowmode
+!nick @user <name>	Change nickname
+!warn @user <reason>	Warn member
+!warnings @user	View warnings
+!lock	Lock channel
+!unlock	Unlock channel
+
+
+
+---
+
+🎉 Fun Commands
+
+Command	Function
+
+!ping	Check latency
+!hello	Say Hello
+!echo <msg>	Repeat text
+!8ball <ask>	Random answer
+!reverse <text>	Reverse text
+!choose a b c	Random choice
+
+
+
+---
+
+🧰 Utility Commands
+
+Command	Function
+
+!userinfo	User information
+!serverinfo	Server stats
+!avatar	Show profile image
+!botinfo	Bot info
+!uptime	Show uptime
+!poll	Create poll
+
+
+
+---
+
+📂 File Structure
+
+config.json
+config.example.json
+main.py
+database.py
+requirements.txt
+.gitignore
+README.md
+/data
+
+
+---
+
+📌 Disclaimer
+
+This project is for educational purposes only. Use responsibly. Do not violate Discord Terms of Service.
+
+
+---
+
+👑 Credits
+
+Developed by lordxStar
+
+> Respect credits — Removing credits means you don’t respect the creator.
