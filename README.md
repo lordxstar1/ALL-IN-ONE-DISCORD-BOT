@@ -1,80 +1,62 @@
-# ALL IN ONE BOT — Made By lordxStar
 
-A multi-feature Discord bot with Moderation, Utility, Fun commands and Config + Database system.
 
+# ALL IN ONE BOT - MADE BY LORDXSTAR
+
+This is an advanced Python Discord multi-feature bot built using discord.py, with a full owner system, moderation, utility, fun commands, config system, and SQLite database support.
+
+Note: This project is for educational purposes only. Use responsibly and follow Discord Terms of Service.
+
+# PUBLIC BOT EVERYONE CAN USE IT !
+---
+
+### Features
+
+* Kick / Ban / Unban users
+* Clear chat messages
+* Slowmode control
+* Channel Lock / Unlock
+* Select Text
+* Nickname changer
+* Warning system with databa
+
+### Utility Commands
+
+* User info & server info
+* Avatar viewer
+* Bot info & uptime
+* Custom poll system
+* Custom help menu with categories
+
+### Fun Commands
+
+* Reverse text
+* 8Ball predictions
+* Echo / Say
+* Choose random options
+* Ping / Hello responses
 
 ---
 
-🧠 Start the Bot
+## Installation
 
-python main.py
+### 1. Clone Repository
 
+```
+git clone https://github.com/yourname/all-in-one-bot
+cd all-in-one-bot
+```
 
----
+### 2. Install Required Packages
 
-📦 Commands
-
-🛡️ Moderation Commands
-
-Command	Function
-
-!kick @user [reason]	Kick a member
-!ban @user [reason]	Ban a member
-!unban name#0000	Unban member
-!clear <amount>	Clear messages
-!slowmode <seconds>	Enable/disable slowmode
-!nick @user <new>	Change nickname
-!warn @user <reason>	Warn a member
-!warnings @user	Check warnings
-!lock	Lock channel
-!unlock	Unlock channel
+```
+pip install -r requirements.txt
+```
 
 
-🎉 Fun Commands
+### 4. Config Installation
 
-Command	Function
-
-!ping	Check bot latency
-!hello	Greeting message
-!echo <text>	Repeat a message
-!8ball <question>	Random answer 🎱
-!reverse <text>	Reverse text
-!choose a b c	Pick random option
-!say <msg>	Bot speaks (deletes your msg)
-
-
-🧰 Utility Commands
-
-Command	Function
-
-!userinfo	Info about user
-!serverinfo	Server info
-!avatar	Show profile picture
-!botinfo	Bot stats
-!uptime	Bot online time
-!poll "question" a, b, c	Create poll
-!help	Custom help menu
-
-
-
----
-
-📂 File Structure
-
-config.json
-config.example.json
-main.py
-database.py
-requirements.txt
-.gitignore
-README.md
-/data
-
-
----
-
-⚙ Configuration
-
+Inside config.json, edit:
+```
 {
   "token": "YOUR_BOT_TOKEN_HERE",
   "owner_id": "123456789012345678",
@@ -84,18 +66,76 @@ README.md
   "watermark": "Made By lordxStar"
 }
 
+```
+
+### 5. Start the Selfbot
+
+```
+main.py
+```
 
 ---
 
-📌 Disclaimer
+## Commands
 
-This project is for educational purposes only. Use responsibly and do not violate Discord Terms of Service.
+### Bot Commands
+
+| Command          | Function                   |
+| ---------------- | -------------------------- |
+| !ping            | Bot Ping                   |
+| !hello           | Greetings                  |
+| !echo <text>     | Repeat Text                |
+| !8ball <question>| Random Answer              |
+| !reverse <text>  | Reverse Text               |
+| !say <text>      | Bot Speaks                 |
+
+### Other Commands
+
+| Command            | Function            |
+| ------------------ | ------------------- |
+| !userinfo @        | User Info           |
+| !serverinfo        | Server Info         |
+| !avatar            | Show Avatar         |
+| !botinfo           | Bot Information     |
+| !help              | Show Commands       |
+| !uptime            | Bot Uptime          |
+| !poll              | Poll Questions      |
+---
+
+## File Structure
+
+```
+main.py
+config.json
+config.example.json
+requirements.txt
+.gitignore
+README.md
+database.py
+/data/
+  bot.db
+```
+
+---
+
+## Disclaimer
+
+This bot is for testing and educational purposes only.
+Use responsibly & follow Discord ToS.
 
 
 ---
 
-👑 Credits
+### Credits 
 
-Developed by lordxStar
+Developed by lordxStar 💫
 
-> Respect credits 🙏
+> CREDITS NHI DIYA TOH RESPECT NAHI MILTI ✨
+
+✨ Without Music System
+✨ Useful Bot For Your Server
+✨ Chota Mota Developer 
+✨ Copy Right Nahi Milta
+
+
+
